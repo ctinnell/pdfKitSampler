@@ -47,6 +47,17 @@
 		84FEF4EF1F89274000679AD4 /* pdfKitSamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdfKitSamplerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FEF4F31F89274000679AD4 /* pdfKitSamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfKitSamplerUITests.swift; sourceTree = "<group>"; };
 		84FEF4F51F89274000679AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FEF5011F89284900679AD4 /* hacking-with-tvos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "hacking-with-tvos.pdf"; sourceTree = "<group>"; };
+		84FEF5021F89284900679AD4 /* hacking-with-swift.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "hacking-with-swift.pdf"; sourceTree = "<group>"; };
+		84FEF5031F89284900679AD4 /* beyond-code.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "beyond-code.pdf"; sourceTree = "<group>"; };
+		84FEF5041F89284900679AD4 /* swift-coding-challenges.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "swift-coding-challenges.pdf"; sourceTree = "<group>"; };
+		84FEF5051F89284900679AD4 /* practical-ios-10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "practical-ios-10.pdf"; sourceTree = "<group>"; };
+		84FEF5061F89284900679AD4 /* practical-ios-11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "practical-ios-11.pdf"; sourceTree = "<group>"; };
+		84FEF5071F89284900679AD4 /* pro-swift.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "pro-swift.pdf"; sourceTree = "<group>"; };
+		84FEF5081F89284A00679AD4 /* server-side-swift.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "server-side-swift.pdf"; sourceTree = "<group>"; };
+		84FEF5091F89284A00679AD4 /* hacking-with-watchos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "hacking-with-watchos.pdf"; sourceTree = "<group>"; };
+		84FEF50A1F89284A00679AD4 /* objective-c-for-swift-developers.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "objective-c-for-swift-developers.pdf"; sourceTree = "<group>"; };
+		84FEF50B1F89284A00679AD4 /* hacking-with-macos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "hacking-with-macos.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +123,17 @@
 			children = (
 				84FEF4E81F89273F00679AD4 /* pdfKitSamplerTests.swift */,
 				84FEF4EA1F89273F00679AD4 /* Info.plist */,
+				84FEF5031F89284900679AD4 /* beyond-code.pdf */,
+				84FEF50B1F89284A00679AD4 /* hacking-with-macos.pdf */,
+				84FEF5021F89284900679AD4 /* hacking-with-swift.pdf */,
+				84FEF5011F89284900679AD4 /* hacking-with-tvos.pdf */,
+				84FEF5091F89284A00679AD4 /* hacking-with-watchos.pdf */,
+				84FEF50A1F89284A00679AD4 /* objective-c-for-swift-developers.pdf */,
+				84FEF5051F89284900679AD4 /* practical-ios-10.pdf */,
+				84FEF5061F89284900679AD4 /* practical-ios-11.pdf */,
+				84FEF5071F89284900679AD4 /* pro-swift.pdf */,
+				84FEF5081F89284A00679AD4 /* server-side-swift.pdf */,
+				84FEF5041F89284900679AD4 /* swift-coding-challenges.pdf */,
 			);
 			path = pdfKitSamplerTests;
 			sourceTree = "<group>";
