@@ -14,6 +14,7 @@
 		84FEF4DE1F89273F00679AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FEF4DC1F89273F00679AD4 /* LaunchScreen.storyboard */; };
 		84FEF4E91F89273F00679AD4 /* pdfKitSamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEF4E81F89273F00679AD4 /* pdfKitSamplerTests.swift */; };
 		84FEF4F41F89274000679AD4 /* pdfKitSamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEF4F31F89274000679AD4 /* pdfKitSamplerUITests.swift */; };
+		84FEF50D1F8928B400679AD4 /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEF50C1F8928B400679AD4 /* FilesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		84FEF5091F89284A00679AD4 /* hacking-with-watchos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "hacking-with-watchos.pdf"; sourceTree = "<group>"; };
 		84FEF50A1F89284A00679AD4 /* objective-c-for-swift-developers.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "objective-c-for-swift-developers.pdf"; sourceTree = "<group>"; };
 		84FEF50B1F89284A00679AD4 /* hacking-with-macos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "hacking-with-macos.pdf"; sourceTree = "<group>"; };
+		84FEF50C1F8928B400679AD4 /* FilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			children = (
 				84FEF4D31F89273F00679AD4 /* AppDelegate.swift */,
 				84FEF4D51F89273F00679AD4 /* ViewController.swift */,
+				84FEF50C1F8928B400679AD4 /* FilesViewController.swift */,
 				84FEF4D71F89273F00679AD4 /* Main.storyboard */,
 				84FEF4DA1F89273F00679AD4 /* Assets.xcassets */,
 				84FEF4DC1F89273F00679AD4 /* LaunchScreen.storyboard */,
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FEF4D61F89273F00679AD4 /* ViewController.swift in Sources */,
+				84FEF50D1F8928B400679AD4 /* FilesViewController.swift in Sources */,
 				84FEF4D41F89273F00679AD4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
