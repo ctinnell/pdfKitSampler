@@ -15,6 +15,17 @@
 		84FEF4E91F89273F00679AD4 /* pdfKitSamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEF4E81F89273F00679AD4 /* pdfKitSamplerTests.swift */; };
 		84FEF4F41F89274000679AD4 /* pdfKitSamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEF4F31F89274000679AD4 /* pdfKitSamplerUITests.swift */; };
 		84FEF50D1F8928B400679AD4 /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEF50C1F8928B400679AD4 /* FilesViewController.swift */; };
+		84FEF50F1F892D8200679AD4 /* beyond-code.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84FEF5031F89284900679AD4 /* beyond-code.pdf */; };
+		84FEF5101F892D8200679AD4 /* hacking-with-macos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84FEF50B1F89284A00679AD4 /* hacking-with-macos.pdf */; };
+		84FEF5111F892D8200679AD4 /* hacking-with-swift.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84FEF5021F89284900679AD4 /* hacking-with-swift.pdf */; };
+		84FEF5121F892D8200679AD4 /* hacking-with-tvos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84FEF5011F89284900679AD4 /* hacking-with-tvos.pdf */; };
+		84FEF5131F892D8200679AD4 /* hacking-with-watchos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84FEF5091F89284A00679AD4 /* hacking-with-watchos.pdf */; };
+		84FEF5141F892D8200679AD4 /* objective-c-for-swift-developers.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84FEF50A1F89284A00679AD4 /* objective-c-for-swift-developers.pdf */; };
+		84FEF5151F892D8200679AD4 /* practical-ios-10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84FEF5051F89284900679AD4 /* practical-ios-10.pdf */; };
+		84FEF5161F892D8200679AD4 /* practical-ios-11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84FEF5061F89284900679AD4 /* practical-ios-11.pdf */; };
+		84FEF5171F892D8200679AD4 /* pro-swift.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84FEF5071F89284900679AD4 /* pro-swift.pdf */; };
+		84FEF5181F892D8200679AD4 /* server-side-swift.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84FEF5081F89284A00679AD4 /* server-side-swift.pdf */; };
+		84FEF5191F892D8200679AD4 /* swift-coding-challenges.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84FEF5041F89284900679AD4 /* swift-coding-challenges.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +137,23 @@
 			children = (
 				84FEF4E81F89273F00679AD4 /* pdfKitSamplerTests.swift */,
 				84FEF4EA1F89273F00679AD4 /* Info.plist */,
+				84FEF50E1F8929D200679AD4 /* PDFs */,
+			);
+			path = pdfKitSamplerTests;
+			sourceTree = "<group>";
+		};
+		84FEF4F21F89274000679AD4 /* pdfKitSamplerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84FEF4F31F89274000679AD4 /* pdfKitSamplerUITests.swift */,
+				84FEF4F51F89274000679AD4 /* Info.plist */,
+			);
+			path = pdfKitSamplerUITests;
+			sourceTree = "<group>";
+		};
+		84FEF50E1F8929D200679AD4 /* PDFs */ = {
+			isa = PBXGroup;
+			children = (
 				84FEF5031F89284900679AD4 /* beyond-code.pdf */,
 				84FEF50B1F89284A00679AD4 /* hacking-with-macos.pdf */,
 				84FEF5021F89284900679AD4 /* hacking-with-swift.pdf */,
@@ -138,16 +166,7 @@
 				84FEF5081F89284A00679AD4 /* server-side-swift.pdf */,
 				84FEF5041F89284900679AD4 /* swift-coding-challenges.pdf */,
 			);
-			path = pdfKitSamplerTests;
-			sourceTree = "<group>";
-		};
-		84FEF4F21F89274000679AD4 /* pdfKitSamplerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				84FEF4F31F89274000679AD4 /* pdfKitSamplerUITests.swift */,
-				84FEF4F51F89274000679AD4 /* Info.plist */,
-			);
-			path = pdfKitSamplerUITests;
+			path = PDFs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,9 +276,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FEF5161F892D8200679AD4 /* practical-ios-11.pdf in Resources */,
+				84FEF50F1F892D8200679AD4 /* beyond-code.pdf in Resources */,
 				84FEF4DE1F89273F00679AD4 /* LaunchScreen.storyboard in Resources */,
+				84FEF5181F892D8200679AD4 /* server-side-swift.pdf in Resources */,
+				84FEF5111F892D8200679AD4 /* hacking-with-swift.pdf in Resources */,
+				84FEF5171F892D8200679AD4 /* pro-swift.pdf in Resources */,
+				84FEF5191F892D8200679AD4 /* swift-coding-challenges.pdf in Resources */,
+				84FEF5151F892D8200679AD4 /* practical-ios-10.pdf in Resources */,
+				84FEF5121F892D8200679AD4 /* hacking-with-tvos.pdf in Resources */,
+				84FEF5131F892D8200679AD4 /* hacking-with-watchos.pdf in Resources */,
 				84FEF4DB1F89273F00679AD4 /* Assets.xcassets in Resources */,
 				84FEF4D91F89273F00679AD4 /* Main.storyboard in Resources */,
+				84FEF5141F892D8200679AD4 /* objective-c-for-swift-developers.pdf in Resources */,
+				84FEF5101F892D8200679AD4 /* hacking-with-macos.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
