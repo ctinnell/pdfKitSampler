@@ -63,6 +63,7 @@ class ViewController: UIViewController {
         guard let path = Bundle.main.url(forResource: filename, withExtension: "pdf") else { return }
         
         if let document = PDFDocument(url: path) {
+            document.delegate = self
             pdfView.document = document
             
             pdfView.goToFirstPage(nil)
@@ -147,6 +148,12 @@ extension ViewController: PDFViewDelegate {
         let vc = SFSafariViewController(url: url)
         vc.modalPresentationStyle = .formSheet
         present(vc, animated: true)
+    }
+}
+
+extension ViewController: PDFDocumentDelegate {
+    func classForPage() -> AnyClass {
+        return SampleWatermark.self
     }
 }
 

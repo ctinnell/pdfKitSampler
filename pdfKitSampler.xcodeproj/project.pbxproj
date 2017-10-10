@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84765DEA1F8CCD65000BFB54 /* SampleWatermark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84765DE91F8CCD65000BFB54 /* SampleWatermark.swift */; };
 		84FEF4D41F89273F00679AD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEF4D31F89273F00679AD4 /* AppDelegate.swift */; };
 		84FEF4D61F89273F00679AD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEF4D51F89273F00679AD4 /* ViewController.swift */; };
 		84FEF4D91F89273F00679AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FEF4D71F89273F00679AD4 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84765DE91F8CCD65000BFB54 /* SampleWatermark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleWatermark.swift; sourceTree = "<group>"; };
 		84FEF4D01F89273F00679AD4 /* pdfKitSampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pdfKitSampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FEF4D31F89273F00679AD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84FEF4D51F89273F00679AD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			children = (
 				84FEF4D31F89273F00679AD4 /* AppDelegate.swift */,
 				84FEF4D51F89273F00679AD4 /* ViewController.swift */,
+				84765DE91F8CCD65000BFB54 /* SampleWatermark.swift */,
 				84FEF50C1F8928B400679AD4 /* FilesViewController.swift */,
 				84FEF4D71F89273F00679AD4 /* Main.storyboard */,
 				84FEF4DA1F89273F00679AD4 /* Assets.xcassets */,
@@ -314,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84765DEA1F8CCD65000BFB54 /* SampleWatermark.swift in Sources */,
 				84FEF4D61F89273F00679AD4 /* ViewController.swift in Sources */,
 				84FEF50D1F8928B400679AD4 /* FilesViewController.swift in Sources */,
 				84FEF4D41F89273F00679AD4 /* AppDelegate.swift in Sources */,
